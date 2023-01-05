@@ -8,7 +8,7 @@ import { LocalAuthGuard } from './auth/local-auth.guard';
 export class AppController {
   constructor(private readonly authService: AuthService) {}
 
-  // login route POST
+  // login route POST   
   // Will get a JWT, need to do this before 'protected' route
   @UseGuards(LocalAuthGuard)
   @Post('login')
