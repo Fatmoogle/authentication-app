@@ -19,4 +19,4 @@ export class AuthModule {}
 // The secret is what is used to "sign" a JWT.
 // The signature will be the servers way of telling
 // if a JWT is legitimate and not tampered with.
-// It helps determine if JWT is from your server or someone elses
+// It helps determine if JWT is from your server or someone elses 
